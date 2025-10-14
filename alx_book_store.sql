@@ -13,9 +13,9 @@ CREATE TABLE BOOKS (
 );
 
 -- Author Table
-CREATE TABLE AUTHORS (
-    AUTHOR_ID INT PRIMARY KEY,
-    AUTHOR_NAME VARCHAR(215) NOT NULL
+CREATE TABLE Authors (
+    author_id INT PRIMARY KEY,
+    author_name VARCHAR(215) NOT NULL
 );
 
 -- Customer Table

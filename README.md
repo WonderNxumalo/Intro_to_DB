@@ -1,0 +1,1 @@
+Newly created folder for SQL exercises.
