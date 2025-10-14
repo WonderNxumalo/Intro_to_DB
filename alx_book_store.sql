@@ -23,7 +23,7 @@ CREATE TABLE Customers (
     customer_id INT PRIMARY KEY,
     customer_name VARCHAR(215) NOT NULL,
     email VARCHAR(215) NOT NULL,
-    ADDRESS TEXT
+    address TEXT
 );
 
 -- Order Table
