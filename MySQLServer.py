@@ -12,7 +12,7 @@ CONFIG = {
     'host': os.getenv('DB_HOST')
 }
 
-DATABASE_NAME = 'alx_book_store'
+DATABASE_NAME = 'alx_book_store' # CREATE DATABASE IF NOT EXIST alx_book_store
 
 def create_database():
     mydb = None
@@ -24,7 +24,7 @@ def create_database():
         sql_command = f"CREATE DATABASE IF NOT EXISTS {DATABASE_NAME}"
         mycursor.execute(sql_command)
         
-        print(f"Databse '{DATABASE_NAME}' created successfully!")
+        print(f"Database '{DATABASE_NAME}' created successfully!") # Database 'alx_book_store created successfully!
         
         mycursor.close()
         
