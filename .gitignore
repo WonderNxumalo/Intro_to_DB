@@ -1,1 +1,4 @@
 .DSStore
+.env
+*.pyc
+venv/
