@@ -12,7 +12,7 @@ CONFIG = {
     'host': os.getenv('DB_HOST')
 }
 
-DATABASE_NAME = 'alx_book_store' # CREATE DATABASE IF NOT EXIST alx_book_store
+DATABASE_NAME = 'alx_book_store' # CREATE DATABASE IF NOT EXISTS alx_book_store
 
 def create_database():
     mydb = None
